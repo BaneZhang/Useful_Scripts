@@ -1,0 +1,7 @@
+#!/bin/sh
+MERGETOOL="/Applications/p4merge.app/Contents/MacOS/p4merge"
+BASE=${1}
+THEIRS=${2}
+MINE=${3}
+MERGE=${4}
+$MERGETOOL $BASE $THEIRS $MINE $MERGE

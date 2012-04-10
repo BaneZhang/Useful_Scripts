@@ -1,0 +1,5 @@
+#!/bin/sh
+DIFFTOOL="/Applications/p4merge.app/Contents/MacOS/p4merge"
+BASE=${6}
+MINE=${7}
+$DIFFTOOL $BASE $MINE

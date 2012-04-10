@@ -1,0 +1,4 @@
+#!/bin/sh
+EDITORTOOL="vim -c startinsert"
+FILE=${1}
+$EDITORTOOL $FILE
