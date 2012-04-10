@@ -1,0 +1,10 @@
+[merge]
+	tool = gitMerge
+[mergetool "gitMerge"]
+	cmd = gitMerge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[mergetool]
+	trustExitCode = False
+[diff]
+	external = gitDiff
+[core]
+	editor = gitEditor

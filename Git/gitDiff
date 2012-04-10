@@ -1,0 +1,5 @@
+#!/bin/sh
+DIFFTOOL="/usr/local/bin/gitMerge"
+BASE=${2}
+MINE=${5}
+[ $# -eq 7 ] && $DIFFTOOL $BASE $MINE
